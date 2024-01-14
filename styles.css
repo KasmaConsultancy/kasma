@@ -1,0 +1,234 @@
+/* Reset Styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(images/bg-1.jpg); /* Replace 'background-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set the default text color on top of the background */
+    transition: background-image 0.5s ease-in-out;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Use rgba for a semi-transparent background color */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+}
+
+h1 {
+    flex-grow: 1;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent; /* Add a semi-transparent white background for content */
+    border-radius: 10px; /* Optional: Add rounded corners to the content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+#hero {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 18px;
+}
+
+#quotes {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#quotes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ... (previous styles) ... */
+
+#benefits,
+#differentiators {
+    margin-top: 30px;
+}
+
+#benefits h2,
+#differentiators h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#benefits ul,
+#differentiators ul {
+    list-style: none;
+    padding: 0;
+}
+
+#benefits li,
+#differentiators li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#benefits li::before,
+#differentiators li::before {
+    content: '\2022'; /* Unicode character for a bullet point */
+    color: transparent; /* Adjust the color as needed */
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
+/* Additional styling for "What Sets Us Apart" section */
+#differentiators {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+body.why-us {
+    background-image:linear-gradient(rgba(143, 135, 135, 0.6), rgba(139, 130, 130, 0.8)), url(images/whyus-bg.jpg);
+    /* Replace 'whyus-background-image.jpg' with the specific background image for this page */
+}
+
+body.aboutus {
+    background-image:linear-gradient(rgba(143, 135, 135, 0.6), rgba(139, 130, 130, 0.8)), url(images/aboutus.jpg);
+    /* Replace 'whyus-background-image.jpg' with the specific background image for this page */
+}
+body.partner {
+    background-image:linear-gradient(rgba(143, 135, 135, 0.6), rgba(139, 130, 130, 0.8)), url(images/partner.jpg);
+    /* Replace 'whyus-background-image.jpg' with the specific background image for this page */
+}
+
+body.contact {
+    background-image:linear-gradient(rgba(143, 135, 135, 0.6), rgba(139, 130, 130, 0.8)), url(images/contact.jpg);
+    /* Replace 'whyus-background-image.jpg' with the specific background image for this page */
+}
+/* ... (rest of your styles) ... */
+
+/* ... (previous styles) ... */
+
+/* ... (previous styles) ... */
+
+#chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.user-message,
+.bot-message {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.user-message {
+    color: #007BFF;
+    float: left;
+}
+
+.bot-message {
+    color: #28a745;
+    float: right;
+}
+
+#user-input {
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ... (remaining styles) ... */
+
+
+/* ... (remaining styles) ... */
