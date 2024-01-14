@@ -17,8 +17,8 @@ body {
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Use rgba for a semi-transparent background color */
-    color: white;
+    background-color: rgba(220, 231, 199, 0.8); /* Use rgba for a semi-transparent background color */
+    color: rgb(238, 77, 77);
     text-align: center;
     padding: 1em;
     display: flex;
@@ -35,6 +35,23 @@ header {
 h1 {
     flex-grow: 1;
 }
+
+
+h6{
+    display: inline;
+    background: rgb(205, 46, 205);
+    font-family: sans-serif;
+    color: #fff;
+  }
+
+
+
+h3 {
+    display: inline;
+    background: purple;
+    font-family: sans-serif;
+    color: #fff;
+  }
 
 nav {
     background-color: #333;
@@ -166,7 +183,7 @@ body.aboutus {
     background-image:linear-gradient(rgba(143, 135, 135, 0.6), rgba(139, 130, 130, 0.8)), url(images/aboutus.jpg);
     /* Replace 'whyus-background-image.jpg' with the specific background image for this page */
 }
-body.partner {
+body.service {
     background-image:linear-gradient(rgba(143, 135, 135, 0.6), rgba(139, 130, 130, 0.8)), url(images/partner.jpg);
     /* Replace 'whyus-background-image.jpg' with the specific background image for this page */
 }
